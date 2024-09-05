@@ -9,7 +9,7 @@ def print_my_dictionary(dict_key, value_for_list):
     }
     print(my_dictionary)
     #Get list from dictionary
-    value = my_dictionary[dict_key]
+    value = my_dictionary.get(dict_key)
     print(value)
     # Modify the list
     value.append(value_for_list)
